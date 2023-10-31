@@ -1,0 +1,77 @@
+header {
+    background-color: #12796b;
+    color: #fff;
+    padding: 10px 0;
+    border: 0%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #37326179;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.rectangulo {
+    width: 300px;
+    height: 500px;
+    background-color: #12796b;
+    margin: 50px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.rectangulo:hover {
+    transform: scale(1.1);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilos para cartwidget */
+#cart-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:  #17bea8;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para itemlistcontainer */
+#item-list-container {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
